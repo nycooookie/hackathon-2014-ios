@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		320272F519A889B600959F48 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 320272F419A889B600959F48 /* MapViewController.m */; };
+		320272F819A88B1900959F48 /* MathController.m in Sources */ = {isa = PBXBuildFile; fileRef = 320272F719A88B1900959F48 /* MathController.m */; };
+		320272FA19A8903800959F48 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320272F919A8903800959F48 /* CoreLocation.framework */; };
+		320272FD19A8BC1B00959F48 /* Adress.m in Sources */ = {isa = PBXBuildFile; fileRef = 320272FC19A8BC1B00959F48 /* Adress.m */; };
+		3202730219A8CDAA00959F48 /* IntroTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 320272FF19A8CDAA00959F48 /* IntroTableViewController.m */; };
+		3202730319A8CDAA00959F48 /* UeberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3202730119A8CDAA00959F48 /* UeberViewController.m */; };
+		3202730819A8CE7D00959F48 /* StoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3202730719A8CE7D00959F48 /* StoryViewController.m */; };
+		3202730A19A8D15500959F48 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3202730919A8D15500959F48 /* GameKit.framework */; };
+		32392C7219A8DCAA0037DCAA /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32392C7119A8DCAA0037DCAA /* data.plist */; };
+		32892E8719A7CF7F005CCAF1 /* HighscoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32892E8619A7CF7F005CCAF1 /* HighscoreViewController.m */; };
 		32D433AC19A7BBBD007C601F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D433AB19A7BBBD007C601F /* Foundation.framework */; };
 		32D433AE19A7BBBD007C601F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D433AD19A7BBBD007C601F /* CoreGraphics.framework */; };
 		32D433B019A7BBBD007C601F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D433AF19A7BBBD007C601F /* UIKit.framework */; };
@@ -34,6 +44,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		320272F319A889B600959F48 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		320272F419A889B600959F48 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		320272F619A88B1900959F48 /* MathController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathController.h; sourceTree = "<group>"; };
+		320272F719A88B1900959F48 /* MathController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathController.m; sourceTree = "<group>"; };
+		320272F919A8903800959F48 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		320272FB19A8BC1B00959F48 /* Adress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Adress.h; sourceTree = "<group>"; };
+		320272FC19A8BC1B00959F48 /* Adress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Adress.m; sourceTree = "<group>"; };
+		320272FE19A8CDAA00959F48 /* IntroTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroTableViewController.h; sourceTree = "<group>"; };
+		320272FF19A8CDAA00959F48 /* IntroTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroTableViewController.m; sourceTree = "<group>"; };
+		3202730019A8CDAA00959F48 /* UeberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UeberViewController.h; sourceTree = "<group>"; };
+		3202730119A8CDAA00959F48 /* UeberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UeberViewController.m; sourceTree = "<group>"; };
+		3202730619A8CE7D00959F48 /* StoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryViewController.h; sourceTree = "<group>"; };
+		3202730719A8CE7D00959F48 /* StoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryViewController.m; sourceTree = "<group>"; };
+		3202730919A8D15500959F48 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		32392C7119A8DCAA0037DCAA /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		32892E8519A7CF7F005CCAF1 /* HighscoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighscoreViewController.h; sourceTree = "<group>"; };
+		32892E8619A7CF7F005CCAF1 /* HighscoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighscoreViewController.m; sourceTree = "<group>"; };
 		32D433A819A7BBBD007C601F /* Hackathon2014.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackathon2014.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D433AB19A7BBBD007C601F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		32D433AD19A7BBBD007C601F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,8 +86,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				320272FA19A8903800959F48 /* CoreLocation.framework in Frameworks */,
 				32D433DD19A7C244007C601F /* MapKit.framework in Frameworks */,
 				32D433AE19A7BBBD007C601F /* CoreGraphics.framework in Frameworks */,
+				3202730A19A8D15500959F48 /* GameKit.framework in Frameworks */,
 				32D433B019A7BBBD007C601F /* UIKit.framework in Frameworks */,
 				32D433AC19A7BBBD007C601F /* Foundation.framework in Frameworks */,
 			);
@@ -101,6 +130,8 @@
 		32D433AA19A7BBBD007C601F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3202730919A8D15500959F48 /* GameKit.framework */,
+				320272F919A8903800959F48 /* CoreLocation.framework */,
 				32D433DC19A7C244007C601F /* MapKit.framework */,
 				32D433AB19A7BBBD007C601F /* Foundation.framework */,
 				32D433AD19A7BBBD007C601F /* CoreGraphics.framework */,
@@ -113,9 +144,24 @@
 		32D433B119A7BBBD007C601F /* Hackathon2014 */ = {
 			isa = PBXGroup;
 			children = (
+				32392C7119A8DCAA0037DCAA /* data.plist */,
 				32D433BA19A7BBBD007C601F /* AppDelegate.h */,
 				32D433BB19A7BBBD007C601F /* AppDelegate.m */,
 				32D433DA19A7C22D007C601F /* Storyboard.storyboard */,
+				32892E8519A7CF7F005CCAF1 /* HighscoreViewController.h */,
+				32892E8619A7CF7F005CCAF1 /* HighscoreViewController.m */,
+				320272F319A889B600959F48 /* MapViewController.h */,
+				320272F419A889B600959F48 /* MapViewController.m */,
+				320272FB19A8BC1B00959F48 /* Adress.h */,
+				320272FC19A8BC1B00959F48 /* Adress.m */,
+				320272F619A88B1900959F48 /* MathController.h */,
+				320272F719A88B1900959F48 /* MathController.m */,
+				320272FE19A8CDAA00959F48 /* IntroTableViewController.h */,
+				320272FF19A8CDAA00959F48 /* IntroTableViewController.m */,
+				3202730019A8CDAA00959F48 /* UeberViewController.h */,
+				3202730119A8CDAA00959F48 /* UeberViewController.m */,
+				3202730619A8CE7D00959F48 /* StoryViewController.h */,
+				3202730719A8CE7D00959F48 /* StoryViewController.m */,
 				32D433BD19A7BBBD007C601F /* Images.xcassets */,
 				32D433B219A7BBBD007C601F /* Supporting Files */,
 			);
@@ -198,6 +244,17 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "IT Crowd Club";
 				TargetAttributes = {
+					32D433A719A7BBBD007C601F = {
+						DevelopmentTeam = 7Q7ZCX58ES;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
+					};
 					32D433C219A7BBBD007C601F = {
 						TestTargetID = 32D433A719A7BBBD007C601F;
 					};
@@ -228,6 +285,7 @@
 			files = (
 				32D433B619A7BBBD007C601F /* InfoPlist.strings in Resources */,
 				32D433BE19A7BBBD007C601F /* Images.xcassets in Resources */,
+				32392C7219A8DCAA0037DCAA /* data.plist in Resources */,
 				32D433DB19A7C22D007C601F /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,8 +305,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32892E8719A7CF7F005CCAF1 /* HighscoreViewController.m in Sources */,
 				32D433BC19A7BBBD007C601F /* AppDelegate.m in Sources */,
+				3202730319A8CDAA00959F48 /* UeberViewController.m in Sources */,
 				32D433B819A7BBBD007C601F /* main.m in Sources */,
+				3202730219A8CDAA00959F48 /* IntroTableViewController.m in Sources */,
+				3202730819A8CE7D00959F48 /* StoryViewController.m in Sources */,
+				320272F519A889B600959F48 /* MapViewController.m in Sources */,
+				320272F819A88B1900959F48 /* MathController.m in Sources */,
+				320272FD19A8BC1B00959F48 /* Adress.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,12 +430,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Florin Hardegger (WVPTTV58U4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hackathon2014/Hackathon2014-Prefix.pch";
 				INFOPLIST_FILE = "Hackathon2014/Hackathon2014-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d42fe2ae-f08a-4814-a475-f2016392bed0";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -380,12 +447,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Florin Hardegger (WVPTTV58U4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hackathon2014/Hackathon2014-Prefix.pch";
 				INFOPLIST_FILE = "Hackathon2014/Hackathon2014-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d42fe2ae-f08a-4814-a475-f2016392bed0";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -449,6 +518,7 @@
 				32D433D619A7BBBD007C601F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32D433D719A7BBBD007C601F /* Build configuration list for PBXNativeTarget "Hackathon2014Tests" */ = {
 			isa = XCConfigurationList;
@@ -457,6 +527,7 @@
 				32D433D919A7BBBD007C601F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
