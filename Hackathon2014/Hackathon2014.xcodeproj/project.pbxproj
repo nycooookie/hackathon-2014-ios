@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		320272F519A889B600959F48 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 320272F419A889B600959F48 /* MapViewController.m */; };
+		320272F819A88B1900959F48 /* MathController.m in Sources */ = {isa = PBXBuildFile; fileRef = 320272F719A88B1900959F48 /* MathController.m */; };
+		320272FA19A8903800959F48 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320272F919A8903800959F48 /* CoreLocation.framework */; };
+		320272FD19A8BC1B00959F48 /* Adress.m in Sources */ = {isa = PBXBuildFile; fileRef = 320272FC19A8BC1B00959F48 /* Adress.m */; };
+		3202730219A8CDAA00959F48 /* IntroTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 320272FF19A8CDAA00959F48 /* IntroTableViewController.m */; };
+		3202730319A8CDAA00959F48 /* UeberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3202730119A8CDAA00959F48 /* UeberViewController.m */; };
+		3202730819A8CE7D00959F48 /* StoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3202730719A8CE7D00959F48 /* StoryViewController.m */; };
+		3202730A19A8D15500959F48 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3202730919A8D15500959F48 /* GameKit.framework */; };
+		32392C7219A8DCAA0037DCAA /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32392C7119A8DCAA0037DCAA /* data.plist */; };
+		32892E8719A7CF7F005CCAF1 /* HighscoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32892E8619A7CF7F005CCAF1 /* HighscoreViewController.m */; };
+		32D433AC19A7BBBD007C601F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D433AB19A7BBBD007C601F /* Foundation.framework */; };
+		32D433AE19A7BBBD007C601F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D433AD19A7BBBD007C601F /* CoreGraphics.framework */; };
+		32D433B019A7BBBD007C601F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D433AF19A7BBBD007C601F /* UIKit.framework */; };
+		32D433B619A7BBBD007C601F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32D433B419A7BBBD007C601F /* InfoPlist.strings */; };
+		32D433B819A7BBBD007C601F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D433B719A7BBBD007C601F /* main.m */; };
+		32D433BC19A7BBBD007C601F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D433BB19A7BBBD007C601F /* AppDelegate.m */; };
+		32D433BE19A7BBBD007C601F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D433BD19A7BBBD007C601F /* Images.xcassets */; };
+		32D433C519A7BBBD007C601F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D433C419A7BBBD007C601F /* XCTest.framework */; };
+		32D433C619A7BBBD007C601F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D433AB19A7BBBD007C601F /* Foundation.framework */; };
+		32D433C719A7BBBD007C601F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D433AF19A7BBBD007C601F /* UIKit.framework */; };
+		32D433CF19A7BBBD007C601F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32D433CD19A7BBBD007C601F /* InfoPlist.strings */; };
+		32D433D119A7BBBD007C601F /* Hackathon2014Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D433D019A7BBBD007C601F /* Hackathon2014Tests.m */; };
+		32D433DB19A7C22D007C601F /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D433DA19A7C22D007C601F /* Storyboard.storyboard */; };
+		32D433DD19A7C244007C601F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D433DC19A7C244007C601F /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32D433C819A7BBBD007C601F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32D433A019A7BBBD007C601F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32D433A719A7BBBD007C601F;
+			remoteInfo = Hackathon2014;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		320272F319A889B600959F48 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		320272F419A889B600959F48 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		320272F619A88B1900959F48 /* MathController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathController.h; sourceTree = "<group>"; };
+		320272F719A88B1900959F48 /* MathController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathController.m; sourceTree = "<group>"; };
+		320272F919A8903800959F48 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		320272FB19A8BC1B00959F48 /* Adress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Adress.h; sourceTree = "<group>"; };
+		320272FC19A8BC1B00959F48 /* Adress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Adress.m; sourceTree = "<group>"; };
+		320272FE19A8CDAA00959F48 /* IntroTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroTableViewController.h; sourceTree = "<group>"; };
+		320272FF19A8CDAA00959F48 /* IntroTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroTableViewController.m; sourceTree = "<group>"; };
+		3202730019A8CDAA00959F48 /* UeberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UeberViewController.h; sourceTree = "<group>"; };
+		3202730119A8CDAA00959F48 /* UeberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UeberViewController.m; sourceTree = "<group>"; };
+		3202730619A8CE7D00959F48 /* StoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryViewController.h; sourceTree = "<group>"; };
+		3202730719A8CE7D00959F48 /* StoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryViewController.m; sourceTree = "<group>"; };
+		3202730919A8D15500959F48 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		32392C7119A8DCAA0037DCAA /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		32892E8519A7CF7F005CCAF1 /* HighscoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighscoreViewController.h; sourceTree = "<group>"; };
+		32892E8619A7CF7F005CCAF1 /* HighscoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighscoreViewController.m; sourceTree = "<group>"; };
+		32D433A819A7BBBD007C601F /* Hackathon2014.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackathon2014.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32D433AB19A7BBBD007C601F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		32D433AD19A7BBBD007C601F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		32D433AF19A7BBBD007C601F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		32D433B319A7BBBD007C601F /* Hackathon2014-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hackathon2014-Info.plist"; sourceTree = "<group>"; };
+		32D433B519A7BBBD007C601F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32D433B719A7BBBD007C601F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32D433B919A7BBBD007C601F /* Hackathon2014-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hackathon2014-Prefix.pch"; sourceTree = "<group>"; };
+		32D433BA19A7BBBD007C601F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32D433BB19A7BBBD007C601F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32D433BD19A7BBBD007C601F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		32D433C319A7BBBD007C601F /* Hackathon2014Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hackathon2014Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32D433C419A7BBBD007C601F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		32D433CC19A7BBBD007C601F /* Hackathon2014Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hackathon2014Tests-Info.plist"; sourceTree = "<group>"; };
+		32D433CE19A7BBBD007C601F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32D433D019A7BBBD007C601F /* Hackathon2014Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hackathon2014Tests.m; sourceTree = "<group>"; };
+		32D433DA19A7C22D007C601F /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		32D433DC19A7C244007C601F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32D433A519A7BBBD007C601F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320272FA19A8903800959F48 /* CoreLocation.framework in Frameworks */,
+				32D433DD19A7C244007C601F /* MapKit.framework in Frameworks */,
+				32D433AE19A7BBBD007C601F /* CoreGraphics.framework in Frameworks */,
+				3202730A19A8D15500959F48 /* GameKit.framework in Frameworks */,
+				32D433B019A7BBBD007C601F /* UIKit.framework in Frameworks */,
+				32D433AC19A7BBBD007C601F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32D433C019A7BBBD007C601F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D433C519A7BBBD007C601F /* XCTest.framework in Frameworks */,
+				32D433C719A7BBBD007C601F /* UIKit.framework in Frameworks */,
+				32D433C619A7BBBD007C601F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32D4339F19A7BBBD007C601F = {
+			isa = PBXGroup;
+			children = (
+				32D433B119A7BBBD007C601F /* Hackathon2014 */,
+				32D433CA19A7BBBD007C601F /* Hackathon2014Tests */,
+				32D433AA19A7BBBD007C601F /* Frameworks */,
+				32D433A919A7BBBD007C601F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32D433A919A7BBBD007C601F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32D433A819A7BBBD007C601F /* Hackathon2014.app */,
+				32D433C319A7BBBD007C601F /* Hackathon2014Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32D433AA19A7BBBD007C601F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3202730919A8D15500959F48 /* GameKit.framework */,
+				320272F919A8903800959F48 /* CoreLocation.framework */,
+				32D433DC19A7C244007C601F /* MapKit.framework */,
+				32D433AB19A7BBBD007C601F /* Foundation.framework */,
+				32D433AD19A7BBBD007C601F /* CoreGraphics.framework */,
+				32D433AF19A7BBBD007C601F /* UIKit.framework */,
+				32D433C419A7BBBD007C601F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32D433B119A7BBBD007C601F /* Hackathon2014 */ = {
+			isa = PBXGroup;
+			children = (
+				32392C7119A8DCAA0037DCAA /* data.plist */,
+				32D433BA19A7BBBD007C601F /* AppDelegate.h */,
+				32D433BB19A7BBBD007C601F /* AppDelegate.m */,
+				32D433DA19A7C22D007C601F /* Storyboard.storyboard */,
+				32892E8519A7CF7F005CCAF1 /* HighscoreViewController.h */,
+				32892E8619A7CF7F005CCAF1 /* HighscoreViewController.m */,
+				320272F319A889B600959F48 /* MapViewController.h */,
+				320272F419A889B600959F48 /* MapViewController.m */,
+				320272FB19A8BC1B00959F48 /* Adress.h */,
+				320272FC19A8BC1B00959F48 /* Adress.m */,
+				320272F619A88B1900959F48 /* MathController.h */,
+				320272F719A88B1900959F48 /* MathController.m */,
+				320272FE19A8CDAA00959F48 /* IntroTableViewController.h */,
+				320272FF19A8CDAA00959F48 /* IntroTableViewController.m */,
+				3202730019A8CDAA00959F48 /* UeberViewController.h */,
+				3202730119A8CDAA00959F48 /* UeberViewController.m */,
+				3202730619A8CE7D00959F48 /* StoryViewController.h */,
+				3202730719A8CE7D00959F48 /* StoryViewController.m */,
+				32D433BD19A7BBBD007C601F /* Images.xcassets */,
+				32D433B219A7BBBD007C601F /* Supporting Files */,
+			);
+			path = Hackathon2014;
+			sourceTree = "<group>";
+		};
+		32D433B219A7BBBD007C601F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32D433B319A7BBBD007C601F /* Hackathon2014-Info.plist */,
+				32D433B419A7BBBD007C601F /* InfoPlist.strings */,
+				32D433B719A7BBBD007C601F /* main.m */,
+				32D433B919A7BBBD007C601F /* Hackathon2014-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32D433CA19A7BBBD007C601F /* Hackathon2014Tests */ = {
+			isa = PBXGroup;
+			children = (
+				32D433D019A7BBBD007C601F /* Hackathon2014Tests.m */,
+				32D433CB19A7BBBD007C601F /* Supporting Files */,
+			);
+			path = Hackathon2014Tests;
+			sourceTree = "<group>";
+		};
+		32D433CB19A7BBBD007C601F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32D433CC19A7BBBD007C601F /* Hackathon2014Tests-Info.plist */,
+				32D433CD19A7BBBD007C601F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32D433A719A7BBBD007C601F /* Hackathon2014 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32D433D419A7BBBD007C601F /* Build configuration list for PBXNativeTarget "Hackathon2014" */;
+			buildPhases = (
+				32D433A419A7BBBD007C601F /* Sources */,
+				32D433A519A7BBBD007C601F /* Frameworks */,
+				32D433A619A7BBBD007C601F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hackathon2014;
+			productName = Hackathon2014;
+			productReference = 32D433A819A7BBBD007C601F /* Hackathon2014.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32D433C219A7BBBD007C601F /* Hackathon2014Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32D433D719A7BBBD007C601F /* Build configuration list for PBXNativeTarget "Hackathon2014Tests" */;
+			buildPhases = (
+				32D433BF19A7BBBD007C601F /* Sources */,
+				32D433C019A7BBBD007C601F /* Frameworks */,
+				32D433C119A7BBBD007C601F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32D433C919A7BBBD007C601F /* PBXTargetDependency */,
+			);
+			name = Hackathon2014Tests;
+			productName = Hackathon2014Tests;
+			productReference = 32D433C319A7BBBD007C601F /* Hackathon2014Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32D433A019A7BBBD007C601F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "IT Crowd Club";
+				TargetAttributes = {
+					32D433A719A7BBBD007C601F = {
+						DevelopmentTeam = 7Q7ZCX58ES;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
+					};
+					32D433C219A7BBBD007C601F = {
+						TestTargetID = 32D433A719A7BBBD007C601F;
+					};
+				};
+			};
+			buildConfigurationList = 32D433A319A7BBBD007C601F /* Build configuration list for PBXProject "Hackathon2014" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 32D4339F19A7BBBD007C601F;
+			productRefGroup = 32D433A919A7BBBD007C601F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32D433A719A7BBBD007C601F /* Hackathon2014 */,
+				32D433C219A7BBBD007C601F /* Hackathon2014Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32D433A619A7BBBD007C601F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D433B619A7BBBD007C601F /* InfoPlist.strings in Resources */,
+				32D433BE19A7BBBD007C601F /* Images.xcassets in Resources */,
+				32392C7219A8DCAA0037DCAA /* data.plist in Resources */,
+				32D433DB19A7C22D007C601F /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32D433C119A7BBBD007C601F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D433CF19A7BBBD007C601F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32D433A419A7BBBD007C601F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32892E8719A7CF7F005CCAF1 /* HighscoreViewController.m in Sources */,
+				32D433BC19A7BBBD007C601F /* AppDelegate.m in Sources */,
+				3202730319A8CDAA00959F48 /* UeberViewController.m in Sources */,
+				32D433B819A7BBBD007C601F /* main.m in Sources */,
+				3202730219A8CDAA00959F48 /* IntroTableViewController.m in Sources */,
+				3202730819A8CE7D00959F48 /* StoryViewController.m in Sources */,
+				320272F519A889B600959F48 /* MapViewController.m in Sources */,
+				320272F819A88B1900959F48 /* MathController.m in Sources */,
+				320272FD19A8BC1B00959F48 /* Adress.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32D433BF19A7BBBD007C601F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D433D119A7BBBD007C601F /* Hackathon2014Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32D433C919A7BBBD007C601F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32D433A719A7BBBD007C601F /* Hackathon2014 */;
+			targetProxy = 32D433C819A7BBBD007C601F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32D433B419A7BBBD007C601F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32D433B519A7BBBD007C601F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		32D433CD19A7BBBD007C601F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32D433CE19A7BBBD007C601F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32D433D219A7BBBD007C601F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32D433D319A7BBBD007C601F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32D433D519A7BBBD007C601F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Florin Hardegger (WVPTTV58U4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hackathon2014/Hackathon2014-Prefix.pch";
+				INFOPLIST_FILE = "Hackathon2014/Hackathon2014-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d42fe2ae-f08a-4814-a475-f2016392bed0";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		32D433D619A7BBBD007C601F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Florin Hardegger (WVPTTV58U4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hackathon2014/Hackathon2014-Prefix.pch";
+				INFOPLIST_FILE = "Hackathon2014/Hackathon2014-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d42fe2ae-f08a-4814-a475-f2016392bed0";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		32D433D819A7BBBD007C601F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hackathon2014.app/Hackathon2014";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hackathon2014/Hackathon2014-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hackathon2014Tests/Hackathon2014Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		32D433D919A7BBBD007C601F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hackathon2014.app/Hackathon2014";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hackathon2014/Hackathon2014-Prefix.pch";
+				INFOPLIST_FILE = "Hackathon2014Tests/Hackathon2014Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32D433A319A7BBBD007C601F /* Build configuration list for PBXProject "Hackathon2014" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32D433D219A7BBBD007C601F /* Debug */,
+				32D433D319A7BBBD007C601F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32D433D419A7BBBD007C601F /* Build configuration list for PBXNativeTarget "Hackathon2014" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32D433D519A7BBBD007C601F /* Debug */,
+				32D433D619A7BBBD007C601F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32D433D719A7BBBD007C601F /* Build configuration list for PBXNativeTarget "Hackathon2014Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32D433D819A7BBBD007C601F /* Debug */,
+				32D433D919A7BBBD007C601F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32D433A019A7BBBD007C601F /* Project object */;
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C2355803-DFEC-4FA3-8785-99A003EFB269</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Hackathon2014</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F0EE0304-401A-4450-9FFF-4028C7F7820D</key>
+		<string>https://github.com/Sawash/hackathon-2014-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Hackathon2014/Hackathon2014.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F0EE0304-401A-4450-9FFF-4028C7F7820D</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Sawash/hackathon-2014-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F0EE0304-401A-4450-9FFF-4028C7F7820D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F0EE0304-401A-4450-9FFF-4028C7F7820D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>hackathon-2014-ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>
